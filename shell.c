@@ -40,7 +40,7 @@ int main(int ac __attribute__((unused)), char *av[], char *envp[])
 		child_pid = fork();
 		if (child_pid == 0)
 		{
-			if (str_char(av[0], '/') == NULL)
+			if (strn_char(av[0], '/') == NULL)
 				av[0] = path_srch(av[0]);
 			if (execve(av[0], av, envp))
 			{
