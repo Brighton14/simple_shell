@@ -1,14 +1,14 @@
 #include "shell.h"
 
 /**
- * *strn_cat - concatenates two strings.
+ * *strng_cat - concatenates two strings.
  * @dest: resulting string.
  * @src: source string.
  * @n: string length.
  * Return: pointer to dest
  */
 
-char *strn_cat(char *dest, char *src, int n)
+char *strng_cat(char *dest, char *src, int n)
 {
 	int i, m;
 
