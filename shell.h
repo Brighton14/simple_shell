@@ -17,6 +17,6 @@ char *path_srch(char *cmd);
 char *strn_cat(char *dest, char *src, int n);
 int strn_lgth(char *pointer);
 char *strn_cat(char *dest, char *src);
-char *str_char(char *s, char c);
+char *strn_char(char *s, char c);
 
 #endif
