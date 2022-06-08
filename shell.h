@@ -10,13 +10,13 @@ extern char **environ;
 #include <unistd.h>
 #include <sys/stat.h>
 #include <sys/types.h>
-void print_environ(void);
-int _strcmp(char *s1, char *s2);
-char **parse_input_string(char *buffer);
-char *path_search(char *cmd);
-char *_strncat(char *dest, char *src, int n);
-int string_length(char *pointer);
-char *_strcat(char *dest, char *src);
-char *_strchr(char *s, char c);
+void print_envn(void);
+int strn_cmp(char *s1, char *s2);
+char **parse_input_strn(char *buffer);
+char *path_srch(char *cmd);
+char *strn_cat(char *dest, char *src, int n);
+int strn_lgth(char *pointer);
+char *strn_cat(char *dest, char *src);
+char *str_char(char *s, char c);
 
 #endif
