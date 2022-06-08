@@ -1,13 +1,13 @@
 #include "shell.h"
 
 /**
- * *str_char - locates a character in a string.
+ * *strn_char - locates a character in a string.
  * @s: string.
  * @c: character to be located.
  * Return: pointer to first occurrence of NULL if no character found.
  */
  
-char *str_char(char *s, char c)
+char *strn_char(char *s, char c)
 {
 	while (*s != '\0')
 	{
