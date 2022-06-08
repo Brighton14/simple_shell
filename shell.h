@@ -14,7 +14,7 @@ void print_envn(void);
 int strn_cmp(char *s1, char *s2);
 char **parse_input_strn(char *buffer);
 char *path_srch(char *cmd);
-char *strn_cat(char *dest, char *src, int n);
+char *strng_cat(char *dest, char *src, int n);
 int strn_lgth(char *pointer);
 char *strn_cat(char *dest, char *src);
 char *strn_char(char *s, char c);
