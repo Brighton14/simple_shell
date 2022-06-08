@@ -32,7 +32,7 @@ char *path_srch(char *cmd)
 		chdir(dirs[i]);
 		if (stat(cmd, &sb) == 0)
 		{
-			dirs[i] = _strncat(dirs[i], &ch, 1);
+			dirs[i] = strng_cat(dirs[i], &ch, 1);
 			cmd = strn_cat(dirs[i], cmd);
 			break;
 		}
